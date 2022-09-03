@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Great Vibes', sans-serif;
+    font-family: 'Great Vibes', cursive;
 }
 
 html, body {
@@ -74,7 +76,7 @@ section.texto1 p {
     }
 
     header .container .chamada1 {
-        padding-top: 20px;
+        padding-top: 50px;
         height: 350px;
     }
 
