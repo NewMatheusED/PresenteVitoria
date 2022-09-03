@@ -77,7 +77,7 @@ section.texto1 p {
 
     header .container .chamada1 {
         padding-top: 50px;
-        height: 350px;
+        height: 350px !important; 
     }
 
     header .container .chamada1 {
