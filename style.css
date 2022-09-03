@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background: #f9f5ed;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+	background-image: url(midia/foto15.jpeg);
+    backdrop-filter: blur(5px);
+	width: 100vw;
+	height: 100vh;
+	background-position: center;
+    background-position-y: -250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header .container {
+    padding: 0;
+}
+
+header .container .chamada1 {
+    backdrop-filter: blur(5px);
+    text-align: center;
+    height: 100vh;
+    padding-top: 40vh;
+    font-size: 40px;
+    color: #fff;
+}
+
+header .container .chamada1 h2 {
+    font-size: 35px
+}
+
+section.texto1 {
+    position: relative;
+    max-width: 50vw;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    background-color: #fff;
+    margin: -20px auto 0 auto;
+    z-index: 999;
+    font-size: 25px;
+}
+
+section.texto1 p {
+    font-family: 'open sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em
+}
