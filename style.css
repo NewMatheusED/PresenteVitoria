@@ -18,8 +18,8 @@ html, body {
 header {
 	background-image: url(midia/foto15.jpeg);
     backdrop-filter: blur(5px);
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 100%;
 	background-position: center;
     background-position-y: -250px;
 	background-repeat: no-repeat;
@@ -59,4 +59,30 @@ section.texto1 p {
     font-family: 'open sans', sans-serif;
     font-size: 17px;
     line-height: 1.5em
+}
+
+@media screen and (max-width: 1200px) {
+    header .container .chamada1 {
+        padding-top: 20vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    section.texto1 {
+        max-width: 80vw;
+        margin: -150px auto 0 auto;
+    }
+
+    header .container .chamada1 {
+        padding-top: 20px;
+        height: 350px;
+    }
+
+    header .container .chamada1 {
+        font-size: 25px;
+    }
+    
+    header .container .chamada1 h2 {
+        font-size: 20px;
+    }
 }
