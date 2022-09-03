@@ -71,7 +71,7 @@ section.texto1 p {
 
 @media screen and (max-width: 900px) {
     header {
-        background-position-y: -100px;
+        background-position-x: -100px;
     }
     section.texto1 {
         max-width: 80vw;
