@@ -103,42 +103,32 @@ function prevTrack () {
 }
 
 function seekTo() {
-    // Calculate the seek position by the
-    // percentage of the seek slider
-    // and get the relative duration to the track
     seekto = currTrack.duration * (seekSlider.value / 100);
    
-    // Set the current track position to the calculated seek position
     currTrack.currentTime = seekto;
   }
    
   function setVolume() {
-    // Set the volume according to the
-    // percentage of the volume slider set
     currTrack.volume = volumeSlider.value / 100;
   }
    
   function seekUpdate() {
     let seekPosition = 0;
    
-    // Check if the current track duration is a legible number
     if (!isNaN(currTrack.duration)) {
       seekPosition = currTrack.currentTime * (100 / currTrack.duration);
       seekSlider.value = seekPosition;
    
-      // Calculate the time left and the total duration
       let currentMinutes = Math.floor(currTrack.currentTime / 60);
       let currentSeconds = Math.floor(currTrack.currentTime - currentMinutes * 60);
       let durationMinutes = Math.floor(currTrack.duration / 60);
       let durationSeconds = Math.floor(currTrack.duration - durationMinutes * 60);
    
-      // Add a zero to the single digit time values
       if (currentSeconds < 10) { currentSeconds = "0" + currentSeconds; }
       if (durationSeconds < 10) { durationSeconds = "0" + durationSeconds; }
       if (currentMinutes < 10) { currentMinutes = "0" + currentMinutes; }
       if (durationMinutes < 10) { durationMinutes = "0" + durationMinutes; }
    
-      // Display the updated duration
       currTime.textContent = currentMinutes + ":" + currentSeconds;
       totalDuration.textContent = durationMinutes + ":" + durationSeconds;
     }
