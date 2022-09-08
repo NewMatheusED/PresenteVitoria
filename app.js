@@ -79,18 +79,20 @@ function nextTrack () {
         trackIndex = 0
     }
 
-    loadTrack(trackIndex)
+    pauseTrack();
+    loadTrack(trackIndex);
     playTrack();
 }
 
 function prevTrack () {
-    if(trackIndex = 0) {
-        trackIndex = trackList.length
-    } else if(trackIndex > 0) {
+    if(trackIndex > 0) {
         trackIndex -= 1
+    } else {
+        trackIndex -= trackList.length - 1
     }
 
-    loadTrack(trackIndex)
+    pauseTrack();
+    loadTrack(trackIndex);
     playTrack();
 }
 
