@@ -29,6 +29,12 @@ let trackList = [
         artist: "Keane",
         img: 'music/img2.jpg',
         music: 'music/Keane - Somewhere Only We Know.mp3'
+    },
+    {
+        name: "Another Love",
+        artist: "Tom Odell",
+        img: 'music/img3.jpg',
+        music: 'music/Tom Odell - Another Love.mp3'
     }
 ]
 
