@@ -93,8 +93,8 @@ function nextTrack () {
 function prevTrack () {
     if(trackIndex > 0) {
         trackIndex -= 1
-    } else {
-        trackIndex -= trackList.length - 1
+    } else if(trackIndex == 0) {
+        trackIndex = trackList.length - 1
     }
 
     pauseTrack();
