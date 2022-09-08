@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <title>Feliz aniversário!!</title>
 </head>
 <body>
@@ -29,11 +30,48 @@
             <div class="grid">
                 <div class="text">
                     <h1>Lembra desse dia?</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dignissimos laboriosam iusto, possimus nemo illum ratione provident expedita ex mollitia eius at animi voluptatibus? Saepe laborum cumque adipisci explicabo qui!Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, explicabo. Voluptas dolorem quos, architecto, laudantium nihil, commodi libero iste velit sapiente facere deserunt delectus deleniti blanditiis dolores fugiat nostrum ipsa</p>
+                    <p>Tava lá eu, mais nervoso do que você pra conhecer meus pais. E eu tava assim porque meus irmãos foram também!! Isso que foi foda, me pegou de suspresa sabe. Mas sla, eu gostei daquela noite, eu gostei de você ter conhecido meus pais, gostei de ter conhecidos os seus, e essa é realmente uma época na qual não quero me esquecer nunca. Porque pelo menos eu sinto isso, nosso relacionamento tem época sabe, e nesse dia, a gente vivia uma época incrível, algo mágico, que não quero deixar de lembrar nem por um segundo. Porém pra ser sincero, nem as épocas complicadas eu quero deixar de lembrar, pelo motivo que sempre te falo... eu gosto de aprender com você, gosto de ter a verdade bem na minha cara e entender que é um defeito meu isso, eu gosto que você me ajude nisso... Mas é basicamente isso que esse dia me lembra, entende?</p>
                 </div><!--text-->
                 <div class="img"><img src="midia/foto07.jpeg"></div>
             </div><!--grid-->
-        </div>
+        </div><!--container-->
+    </section>
+
+    <section class="player">
+        <div class="container">
+            <div class="details">
+                <div class="trackImg"></div>
+                <div class="trackName">Name</div>
+                <div class="trackArtist">Name artist</div>
+            </div><!--details-->
+
+            <div class="buttons">
+                <div class="prevTrack" onclick="prevTrack()">
+                  <i class="fa fa-step-backward fa-2x"></i>
+                </div><!--prev-track-->
+                <div class="playpauseTrack" onclick="playpauseTrack()">
+                  <i class="fa fa-play-circle fa-5x"></i>
+                </div><!--praypauseTrack-->
+                <div class="nextTrack" onclick="nextTrack()">
+                  <i class="fa fa-step-forward fa-2x"></i>
+                </div><!--next-track-->
+              </div><!--buttons-->
+
+              <div class="sliderContainer">
+                <div class="currentTime">00:00</div>
+                <input type="range" min="1" max="100"
+                  value="0" class="seekSlider" onchange="seekTo()">
+                <div class="totalDuration">00:00</div>
+              </div><!--slider_container-->
+           
+              <!-- Define the section for displaying the volume slider-->
+              <div class="sliderContainer">
+                <i class="fa fa-volume-down"></i>
+                <input type="range" min="1" max="100"
+                  value="100" class="volumeSlider" onchange="setVolume()">
+                <i class="fa fa-volume-up"></i>
+              </div>
+        </div><!--container-->
     </section>
     <script src="app.js"></script>
 </body>
