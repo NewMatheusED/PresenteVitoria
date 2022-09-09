@@ -44,14 +44,37 @@ let trackList = [
         artist: "Tom Odell",
         img: 'music/img3.jpg',
         music: 'music/Tom Odell - Another Love.mp3'
+    },
+    {
+        index: 3,
+        name: "Save Your Tear",
+        artist: "The Weeknd",
+        img: 'music/img4.jpg',  
+        music: 'music/The Weeknd - Save Your Tears.mp3'
+    },
+    {
+        index: 4,
+        name: "Habits - Hippie Sabotage Remix",
+        artist: "Love Lo",
+        img: 'music/img5.jpg', 
+        music: 'music/Tove Lo - Habits (Stay High) - Hippie Sabotage Remix.mp3'
+    },
+    {
+        index: 5,
+        name: 'Do I Wanna Know?',
+        artist: 'Arctic Monkeys',
+        img: 'music/img6.jpg',
+        music: 'music/Arctic Monkeys - Do I Wanna Know (Official Video).mp3'
     }
 ]
 
 trackList.forEach(function(val) {
-    flexList.innerHTML += `
+    var el = document.createElement('div')
+    el.innerHTML += `
     <div class="tracklistImg" style="background-image: url(${val.img})"></div>
     <div class="tracklistName">${val.name} |</div>
     <div class="tracklistArtist">${val.artist}</div>`
+    flexList.appendChild(el)
 })
 
 function loadTrack(trackIndex) {

@@ -225,6 +225,13 @@ section.listMusic .container h3 {
 section.listMusic .container .flexList {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.listMusic .container .flexList div {
+    display: flex;
+    margin-bottom: 10px;
 }
 
 section.listMusic .container .flexList .tracklistImg {
