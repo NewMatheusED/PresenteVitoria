@@ -17,6 +17,12 @@ let updateTimer;
 
 let currTrack = document.createElement('audio');
 
+let listMusic = document.querySelector('.listMusic');
+let flexList = document.querySelector('.flexList')
+let listImg = document.querySelector('.tracklistImg');
+let listName = document.querySelector('.tracklistName');
+let listArtist = document.querySelector('.tracklistArtist');
+
 let trackList = [
     {
         index: 0,
@@ -40,6 +46,13 @@ let trackList = [
         music: 'music/Tom Odell - Another Love.mp3'
     }
 ]
+
+trackList.forEach(function(val) {
+    flexList.innerHTML += `
+    <div class="tracklistImg" style="background-image: url(${val.img})"></div>
+    <div class="tracklistName">${val.name} |</div>
+    <div class="tracklistArtist">${val.artist}</div>`
+})
 
 function loadTrack(trackIndex) {
     clearInterval(updateTimer);
