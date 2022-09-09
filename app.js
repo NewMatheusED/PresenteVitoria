@@ -19,18 +19,21 @@ let currTrack = document.createElement('audio');
 
 let trackList = [
     {
+        index: 0,
         name: "All Of Me",
         artist: "Jonh Legend",
         img: 'music/img1.jpg',
         music: 'music/John Legend - All of Me.mp3'
     },
     {
+        index: 1,
         name: "Somewhere Only We Know",
         artist: "Keane",
         img: 'music/img2.jpg',
         music: 'music/Keane - Somewhere Only We Know.mp3'
     },
     {
+        index: 2,
         name: "Another Love",
         artist: "Tom Odell",
         img: 'music/img3.jpg',
@@ -103,7 +106,7 @@ function prevTrack () {
 }
 
 function seekTo() {
-    seekto = currTrack.duration * (seekSlider.value / 100);
+    let seekto = currTrack.duration * (seekSlider.value / 100);
    
     currTrack.currentTime = seekto;
   }

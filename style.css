@@ -242,6 +242,10 @@ section.player .container .sliderContainer {
         width: 100%;
     }
 
+    .grid .text p {
+        padding-right: 0;
+    }
+
     .grid .img {
         width: 100%;
     }
