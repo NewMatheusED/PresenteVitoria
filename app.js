@@ -65,7 +65,35 @@ let trackList = [
         artist: 'Arctic Monkeys',
         img: 'music/img6.jpg',
         music: 'music/Arctic Monkeys - Do I Wanna Know (Official Video).mp3'
-    }
+    },
+    {
+        index: 6,
+        name: 'Stressed Out',
+        artist: 'Twenty One Pilots',
+        img: 'music/img7.jpg',
+        music: 'music/twenty one pilots - Stressed Out (Audio).mp3'
+    },
+    {
+        index: 7,
+        name: 'Sweater Weather',
+        artist: 'The Neighbourhood',
+        img: 'music/img8.jpg',
+        music: 'music/Sweater Weather.mp3'
+    },
+    {
+        index: 8,
+        name: 'Happier',
+        artist: 'Marshmello ft. Bastille',
+        img: 'music/img9.jpg',
+        music: 'music/Marshmello ft. Bastille - Happier (Official Lyric Video).mp3'
+    },
+    {
+        index: 5,
+        name: 'Do I Wanna Know?',
+        artist: 'Arctic Monkeys',
+        img: 'music/img6.jpg',
+        music: 'music/Arctic Monkeys - Do I Wanna Know (Official Video).mp3'
+    },
 ]
 
 trackList.forEach(function(val) {

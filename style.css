@@ -303,4 +303,8 @@ section.listMusic .container .flexList .tracklistArtist {
     .grid .img {
         width: 100%;
     }
+
+    section.listMusic .container .flexList {
+        justify-content: start;
+    }
 }
