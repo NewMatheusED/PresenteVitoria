@@ -232,6 +232,7 @@ section.listMusic .container .flexList {
 section.listMusic .container .flexList div {
     display: flex;
     margin-bottom: 10px;
+    align-items: center;
 }
 
 section.listMusic .container .flexList .tracklistImg {
