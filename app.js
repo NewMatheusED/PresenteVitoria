@@ -130,32 +130,32 @@ let trackList = [
         music: 'music/In The End [Official HD Music Video] - Linkin Park.mp3'
     },
     {
-        index: 13,
-        name: 'Feel Good Inc.',
-        artist: 'Gorillaz',
-        img: 'music/img14.jpg',
-        music: 'music/Gorillaz - Feel Good Inc HD.mp3'
+        index: 15,
+        name: 'R U mine?',
+        artist: 'Arctic Monkeys',
+        img: 'music/img6.jpg',
+        music: 'music/Arctic Monkeys - R U Mine.mp3'
     },
     {
-        index: 13,
-        name: 'Feel Good Inc.',
-        artist: 'Gorillaz',
-        img: 'music/img14.jpg',
-        music: 'music/Gorillaz - Feel Good Inc HD.mp3'
+        index: 16,
+        name: 'Talking To The Moon',
+        artist: 'Bruno Mars',
+        img: 'music/img16.jpg',
+        music: 'music/Bruno Mars - Talking To The Moon.mp3'
     },
     {
-        index: 13,
-        name: 'Feel Good Inc.',
-        artist: 'Gorillaz',
-        img: 'music/img14.jpg',
-        music: 'music/Gorillaz - Feel Good Inc HD.mp3'
+        index: 17,
+        name: 'Given Up',
+        artist: 'Linkin Park',
+        img: 'music/img17.jpg',
+        music: 'music/Given Up [Official Music Video] - Linkin Park.mp3'
     },
     {
-        index: 13,
-        name: 'Feel Good Inc.',
-        artist: 'Gorillaz',
-        img: 'music/img14.jpg',
-        music: 'music/Gorillaz - Feel Good Inc HD.mp3'
+        index: 18,
+        name: 'Faint',
+        artist: 'Linkin Park',
+        img: 'music/img18.jpg',
+        music: 'music/Faint [Official Music Video] - Linkin Park.mp3'
     },
 
 ]
