@@ -25,7 +25,8 @@ html, body {
     height: 100%;
     background: #00000070;
     opacity: 1;
-    overflow-x: hidden;
+    font-family: Arial;
+    line-height: 1.5em;
 }
 
 .alert .alertInfo {
@@ -38,6 +39,22 @@ html, body {
     height: auto;
     background: #f9f5ed;
     padding: 20px;
+}
+
+.flexItens {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.btn {
+    width: 110px;
+    height: auto;
+    background-color: #eedec0;
+    padding: 5px;
+    cursor: pointer;
+    border: 0;
+    text-align: center;
 }
 
 header {
