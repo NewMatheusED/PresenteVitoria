@@ -54,7 +54,7 @@ let trackList = [
     },
     {
         index: 4,
-        name: "Habits - Hippie Sabotage Remix",
+        name: "Habits",
         artist: "Love Lo",
         img: 'music/img5.jpg', 
         music: 'music/Tove Lo - Habits (Stay High) - Hippie Sabotage Remix.mp3'
@@ -88,12 +88,76 @@ let trackList = [
         music: 'music/Marshmello ft. Bastille - Happier (Official Lyric Video).mp3'
     },
     {
-        index: 5,
-        name: 'Do I Wanna Know?',
-        artist: 'Arctic Monkeys',
-        img: 'music/img6.jpg',
-        music: 'music/Arctic Monkeys - Do I Wanna Know (Official Video).mp3'
+        index: 9,
+        name: 'When I Was Your Man',
+        artist: 'Bruno Mars',
+        img: 'music/img10.jpg',
+        music: 'music/Bruno Mars - When I Was Your Man (Lyrics).mp3'
     },
+    {
+        index: 10,
+        name: 'Somebody That I Used To Know',
+        artist: 'Gotye',
+        img: 'music/img11.jpg',
+        music: 'music/Gotye - Somebody That I Used To Know (feat. Kimbra).mp3'
+    },
+    {
+        index: 11,
+        name: 'Heathens',
+        artist: 'Twenty One Pilots',
+        img: 'music/img12.jpg',
+        music: 'music/Twenty One Pilots - Heathens (Audio).mp3'
+    },
+    {
+        index: 12,
+        name: 'Grenade',
+        artist: 'Bruno Mars',
+        img: 'music/img13.png',
+        music: 'music/Bruno Mars - Grenade (Lyrics).mp3'
+    },
+    {
+        index: 13,
+        name: 'Feel Good Inc.',
+        artist: 'Gorillaz',
+        img: 'music/img14.jpg',
+        music: 'music/Gorillaz - Feel Good Inc HD.mp3'
+    },
+    {
+        index: 14,
+        name: 'In The End',
+        artist: 'Linkin Park',
+        img: 'music/img15.jpg',
+        music: 'music/In The End [Official HD Music Video] - Linkin Park.mp3'
+    },
+    {
+        index: 13,
+        name: 'Feel Good Inc.',
+        artist: 'Gorillaz',
+        img: 'music/img14.jpg',
+        music: 'music/Gorillaz - Feel Good Inc HD.mp3'
+    },
+    {
+        index: 13,
+        name: 'Feel Good Inc.',
+        artist: 'Gorillaz',
+        img: 'music/img14.jpg',
+        music: 'music/Gorillaz - Feel Good Inc HD.mp3'
+    },
+    {
+        index: 13,
+        name: 'Feel Good Inc.',
+        artist: 'Gorillaz',
+        img: 'music/img14.jpg',
+        music: 'music/Gorillaz - Feel Good Inc HD.mp3'
+    },
+    {
+        index: 13,
+        name: 'Feel Good Inc.',
+        artist: 'Gorillaz',
+        img: 'music/img14.jpg',
+        music: 'music/Gorillaz - Feel Good Inc HD.mp3'
+    },
+
 ]
 
 trackList.forEach(function(val) {

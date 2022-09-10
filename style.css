@@ -233,6 +233,7 @@ section.listMusic .container .flexList div {
     display: flex;
     margin-bottom: 10px;
     align-items: center;
+    font-size: 15px;
 }
 
 section.listMusic .container .flexList .tracklistImg {
@@ -244,6 +245,7 @@ section.listMusic .container .flexList .tracklistImg {
 section.listMusic .container .flexList .tracklistName {
     padding: 16px 5px 16px 10px;
     background-color: #dfd9cc;
+    font-weight: bold;
 }
 
 section.listMusic .container .flexList .tracklistArtist {
