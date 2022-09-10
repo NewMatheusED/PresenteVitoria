@@ -4,6 +4,7 @@ window.onload = function() {
 
     document.body.scroll = 'no';
     document.documentElement.style.overflow = 'hidden';
+    document.documentElement.style.position = 'fixed';
 
     let alerta = document.querySelector('.alert')
     let alertInfo = document.querySelector('.alertInfo');
@@ -37,12 +38,14 @@ window.onload = function() {
         alerta.style.opacity = '0';
         document.body.scroll = 'yes';
         document.documentElement.style.overflow = 'auto';
+        document.documentElement.style.position = 'relative';
     }
 
     goTo.onclick = function() {
         alerta.style.opacity = '0';
         document.body.scroll = 'yes';
         document.documentElement.style.overflow = 'auto';
+        document.documentElement.style.position = 'relative';
     
         window.scrollTo(0, music.getBoundingClientRect().top - 500)
     }
