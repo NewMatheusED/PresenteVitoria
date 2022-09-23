@@ -47,7 +47,9 @@ window.onload = function() {
         document.documentElement.style.overflow = 'auto';
         document.documentElement.style.position = 'relative';
     
-        window.scrollTo(0, music.getBoundingClientRect().top - 500)
+        $('html, body').animate({
+            scrollTop: $('.player').offset().top
+        },2000)
     }
 
 }
