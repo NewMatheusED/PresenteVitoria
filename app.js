@@ -162,6 +162,7 @@ let trackList = [
 
 trackList.forEach(function(val) {
     var el = document.createElement('div')
+    el.classList.add(val.index)
     el.innerHTML += `
     <div class="tracklistImg" style="background-image: url(${val.img})"></div>
     <div class="tracklistName">${val.name} |</div>

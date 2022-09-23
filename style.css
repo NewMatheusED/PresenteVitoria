@@ -281,6 +281,7 @@ section.listMusic .container .flexList div {
     margin-bottom: 10px;
     align-items: center;
     font-size: 15px;
+    cursor: pointer;
 }
 
 section.listMusic .container .flexList .tracklistImg {
