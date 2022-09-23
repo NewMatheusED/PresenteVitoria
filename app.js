@@ -157,6 +157,27 @@ let trackList = [
         img: 'music/img18.jpg',
         music: 'music/Faint [Official Music Video] - Linkin Park.mp3'
     },
+    {
+        index: 19,
+        name: 'I Gotta Feeling',
+        artist: 'The Black Eyed Peas',
+        img: 'music/img19.jpg',
+        music: 'music/I Gotta Feeling.mp3'
+    },
+    {
+        index: 20,
+        name: 'We Are Young',
+        artist: 'Fun',
+        img: 'music/img20.jpg',
+        music: 'music/We Are Young (feat. Janelle Monáe).mp3'
+    },
+    {
+        index: 21,
+        name: 'Riptide',
+        artist: 'Vance Joy',
+        img: 'music/img21.jpg',
+        music: 'music/Riptide.mp3'
+    },
 
 ]
 

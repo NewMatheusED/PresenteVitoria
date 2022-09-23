@@ -6,7 +6,7 @@ window.onload = function() {
     document.documentElement.style.overflow = 'hidden';
     document.documentElement.style.position = 'fixed';
 
-    let alerta = document.querySelector('.alert')
+    let alerta = document.querySelector('.alert');
     let alertInfo = document.querySelector('.alertInfo');
 
     let info = document.createElement('div');
