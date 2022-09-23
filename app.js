@@ -178,6 +178,41 @@ let trackList = [
         img: 'music/img21.jpg',
         music: 'music/Riptide.mp3'
     },
+    {
+        index: 22,
+        name: 'Fireflies',
+        artist: 'Owl City',
+        img: 'music/img22.jpg',
+        music: 'music/Owl City - Fireflies (HQ).mp3'
+    },
+    {
+        index: 23,
+        name: 'Hey There Delilah',
+        artist: "Plain White T's",
+        img: 'music/img23.jpg',
+        music: 'music/Hey There Delilah.mp3'
+    },
+    {
+        index: 24,
+        name: 'Hey, Soul Sister',
+        artist: 'Train',
+        img: 'music/img24.jpg',
+        music: 'music/Hey, Soul Sister.mp3'
+    },
+    {
+        index: 25,
+        name: 'Beautiful Girls',
+        artist: 'Sean Kingston',
+        img: 'music/img25.jpg',
+        music: 'music/Beautiful Girls (Radio Edit).mp3'
+    },
+    {
+        index: 25,
+        name: 'Am I Wrong',
+        artist: 'Nico & Vinz',
+        img: 'music/img26.jpg',
+        music: 'music/Am I Wrong.mp3'
+    },
 
 ]
 
