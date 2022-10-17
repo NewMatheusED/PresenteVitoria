@@ -19,8 +19,8 @@ window.onload = function() {
 
     info2.innerHTML = `<p>E agora eu só quero pedir perdão pra você vida, perdão não só por algo que aconteceu em um dia, mas pelo o que vem acontecendo, eu quero te pedir desculpas por isso, desculpas por tudo, por todas as vezes que fiz você chorar, sentir medo, ficar brava comigo, se sentir mau por algo que vem de mim, eu me arrependo muito por tudo o que fiz e quero te pedir esse perdão, porque tudo isso foi algo que me afetou, mas muito mesmo, ver vc desse jeito me deixou bem assustado e foi aí que percebi que tava fazendo mais que uma merdinha, mas quase acabando com nosso relacionamento. Então, eu to aqui, só pedindo uma coisa pra você, uma última chance. Eu te juro, por tudo nesse mundo, fazer isso aqui tudo valer, prometo fazer valer seu esforço que eu to vendo todos os dias, prometo fazer você sentir orgulho e voltar a ficar feliz e animada como antes, sinto falta do seu brilho, e sinto também que eu fui o culpado por tirar isso... Então só me dê uma última chance tá bom, e eu juro fazer você ser a pessoa mais feliz desse mundo!!</p><div class="flexItens"><input class="btn stay2" onclick="stay2()" value="Desculpa de novo!"></input></div>`
 
-    alertInfo2.appendChild(info2)
     alertInfo.appendChild(info)
+    alertInfo2.appendChild(info2)
 
     let stay = document.querySelector('.stay')
     let goTo = document.querySelector('.goto')

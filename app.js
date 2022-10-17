@@ -207,11 +207,18 @@ let trackList = [
         music: 'music/Beautiful Girls (Radio Edit).mp3'
     },
     {
-        index: 25,
+        index: 26,
         name: 'Am I Wrong',
         artist: 'Nico & Vinz',
         img: 'music/img26.jpg',
         music: 'music/Am I Wrong.mp3'
+    },
+    {
+        index: 27,
+        name: 'Yellow',
+        artist: 'Coldplay',
+        img: 'music/img27.jpg',
+        music: 'music/Coldplay - Yellow (Lyrics).mp3'
     },
 
 ]
