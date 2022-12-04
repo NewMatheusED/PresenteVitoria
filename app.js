@@ -220,6 +220,20 @@ let trackList = [
         img: 'music/img27.jpg',
         music: 'music/Coldplay - Yellow (Lyrics).mp3'
     },
+    {
+        index: 28,
+        name: 'Lights',
+        artist: 'Ellie Goulding',
+        img: 'music/img28.jpg',
+        music: 'music/Ellie Goulding - Lights (Lyrics).mp3'
+    },
+    {
+        index: 29,
+        name: 'Turning Page',
+        artist: 'Sleeping At Last',
+        img: 'music/img29.jpg',
+        music:'music/Turning Page Sleeping At Last Lyrics.mp3'
+    },
 
 ]
 
