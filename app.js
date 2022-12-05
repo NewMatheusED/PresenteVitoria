@@ -234,6 +234,34 @@ let trackList = [
         img: 'music/img29.jpg',
         music:'music/Turning Page Sleeping At Last Lyrics.mp3'
     },
+    {
+        index: 30,
+        name: 'Imprevisto',
+        artist: 'Yago Oproprio',
+        img: 'music/img30.jpg',
+        music:'music/Yago Oproprio Ft. Rô Rosa - Imprevisto (Áudio Oficial).mp3'
+    },
+    {
+        index: 31,
+        name: 'N.A.D.A.B.O.M pt.2',
+        artist: 'Costa Gold',
+        img: 'music/img31.jpg',
+        music:'music/Costa Gold - N.A.D.A.B.O.M pt. 2 feat Luccas Carlos e Don L.mp3'
+    },
+    {
+        index: 32,
+        name: 'O Casamento',
+        artist: 'MC Sid',
+        img: 'music/img32.jpg',
+        music:'music/Mc Sid , Spinardi - O Casamento (Animação Oficial) - Prod. Ugo Ludovico.mp3'
+    },
+    {
+        index: 33,
+        name: 'Ô moça (RAAD Remix)',
+        artist: 'MC Zaquin',
+        img: 'music/img33.jpg',
+        music:'music/MC Zaquin - Ô Moça (RAAD Remix).mp3'
+    },
 
 ]
 
