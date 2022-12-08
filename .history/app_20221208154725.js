@@ -295,8 +295,8 @@ window.onload = function() {
     let stay2 = document.querySelector('.stay2')
     let memory = document.querySelector('.memory')
     let coordsToGo = $('.player').offset().top;
-    let indexMusic = trackList.length - 1;
-    let hasView = false;
+let indexMusic = trackList.length - 1;
+let hasView = false;
 
     stay.onclick = function() {
         alerta.style.opacity = '0';
@@ -314,10 +314,6 @@ window.onload = function() {
         $('html, body').animate({
             scrollTop: $('.player').offset().top
         },2000)
-        setTimeout(() => {
-            alert('Última música adicionada: ' + trackList[indexMusic].name);
-            hasView = true;
-        },2100)
     }
 
     sorry.onclick = function() {

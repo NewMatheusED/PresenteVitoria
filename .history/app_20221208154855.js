@@ -317,7 +317,7 @@ window.onload = function() {
         setTimeout(() => {
             alert('Última música adicionada: ' + trackList[indexMusic].name);
             hasView = true;
-        },2100)
+        })
     }
 
     sorry.onclick = function() {

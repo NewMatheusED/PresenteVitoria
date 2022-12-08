@@ -294,9 +294,6 @@ window.onload = function() {
     let sorry = document.querySelector('.sorry')
     let stay2 = document.querySelector('.stay2')
     let memory = document.querySelector('.memory')
-    let coordsToGo = $('.player').offset().top;
-    let indexMusic = trackList.length - 1;
-    let hasView = false;
 
     stay.onclick = function() {
         alerta.style.opacity = '0';
@@ -314,10 +311,6 @@ window.onload = function() {
         $('html, body').animate({
             scrollTop: $('.player').offset().top
         },2000)
-        setTimeout(() => {
-            alert('Última música adicionada: ' + trackList[indexMusic].name);
-            hasView = true;
-        },2100)
     }
 
     sorry.onclick = function() {
@@ -344,16 +337,11 @@ window.onload = function() {
         },2000)
     }
 
-    $(window).on('scroll', function() { 
-        let coordsActual = $(window).scrollTop() ;
-    
-        if(coordsActual > coordsToGo && !hasView) {
-            hasView = true;
-            alert('Última música adicionada: ' + trackList[indexMusic].name);
-        }
-    })
-
 }
+
+let coordsToGo = $('.player').offset().top;
+let indexMusic = trackList.length - 1;
+let hasView = false;
 
 trackList.forEach(function(val) {
     var el = document.createElement('div')

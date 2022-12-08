@@ -314,10 +314,6 @@ window.onload = function() {
         $('html, body').animate({
             scrollTop: $('.player').offset().top
         },2000)
-        setTimeout(() => {
-            alert('Última música adicionada: ' + trackList[indexMusic].name);
-            hasView = true;
-        },2100)
     }
 
     sorry.onclick = function() {
