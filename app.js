@@ -262,6 +262,13 @@ let trackList = [
         img: 'music/img33.jpg',
         music:'music/MC Zaquin - Ô Moça (RAAD Remix).mp3'
     },
+    {
+        index: 34,
+        name: 'Until I Found You',
+        artist: 'Stephen Sanchez',
+        img: 'music/img34.jpg',
+        music:'music/Stephen Sanchez - Until I Found You.mp3'
+    },
 
 ]
 
@@ -315,7 +322,7 @@ window.onload = function() {
             scrollTop: $('.player').offset().top
         },2000)
         setTimeout(() => {
-            alert('Última música adicionada: ' + trackList[indexMusic].name);
+            alert('Última música adicionada: ' + trackList[indexMusic].name + ' | ' + trackList[indexMusic].artist);
             hasView = true;
         },2100)
     }
@@ -349,7 +356,7 @@ window.onload = function() {
     
         if(coordsActual > coordsToGo && !hasView) {
             hasView = true;
-            alert('Última música adicionada: ' + trackList[indexMusic].name);
+            alert('Última música adicionada: ' + trackList[indexMusic].name + ' | ' + trackList[indexMusic].artist);
         }
     })
 
