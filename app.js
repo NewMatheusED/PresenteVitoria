@@ -269,6 +269,13 @@ let trackList = [
         img: 'music/img34.jpg',
         music:'music/Stephen Sanchez - Until I Found You.mp3'
     },
+    {
+        index: 35,
+        name: 'golden hour',
+        artist: 'JVKE',
+        img: 'music/img35.jpg',
+        music:'music/JVKE - golden hour (Official Lyric Video).mp3'
+    },
 
 ]
 
